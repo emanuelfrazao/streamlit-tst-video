@@ -1,6 +1,8 @@
 import cv2
 import streamlit as st
-
+st.write(cv2.CAP_V4L2)
+st.write(cv2.CAP_DSHOW)
+st.write(cv2.CAP_MSMF)
 st.title("Webcam Live Feed")
 run = st.checkbox('Run')
 FRAME_WINDOW = st.image([])
